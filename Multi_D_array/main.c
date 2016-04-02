@@ -29,7 +29,7 @@ int main (int argc, char* argv[])
 	
 	printf("Example of double array storage:\n");
 	for (int i=0; i<numberOfRows; ++i) {
-		for (int j=0; j<numberOfCols, ++j){
+		for (int j=0; j<numberOfCols; ++j){
 			array[i][j] = 100 *i + j;
 			printf("array[%d][%d] = %d\n", i, j, array[i][j]);
 		}
